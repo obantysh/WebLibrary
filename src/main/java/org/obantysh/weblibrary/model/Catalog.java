@@ -9,7 +9,7 @@ import java.util.List;
 public class Catalog {
     private List<Book> books;
 
-    @XmlElement(name = "mapping")
+    @XmlElement(name = "book")
     public List<Book> getBooks() {
         return books;
     }
